@@ -36,7 +36,8 @@ export default function AdminOrder() {
         </div>
       </div>
       <div className="orderDetail">
-          orderDetail
+          <OrderTableData />
+
           <OrderDetailData />
         </div>
     </div>

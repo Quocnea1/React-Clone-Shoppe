@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./OrderTableData.scss"
 
-
 const OrderTableData = (data) => {
     const {
         orderID,
