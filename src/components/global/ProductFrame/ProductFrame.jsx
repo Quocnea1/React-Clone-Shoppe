@@ -10,6 +10,7 @@ export const ProductFrame = ({ data }) => {
   const handleClick = () => {
     navigate("/product");
   };
+  // console.log(data);
 
   return (
     <div className="productFrame" onClick={() => handleClick()}>
