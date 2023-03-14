@@ -1,0 +1,14 @@
+@import "/src/style/mixin.scss";
+
+.comment-info-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+    .fa  {
+        font-size: 40px;
+    }
+    .comment-info-data {
+        margin-left: 20px;
+
+    }
+}

@@ -1,0 +1,46 @@
+@import "../../../../../style/mixin.scss";
+.imageUploaderForm {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+  .imageUploaderSection {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+
+    .imgWrapper {
+      margin-top: 20px !important;
+      float: right;
+
+      .imageContainer {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 20px;
+      }
+      .custom-file-upload {
+        border: 1px solid #ccc;
+        padding: 12px 12px;
+        cursor: pointer;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+      .imageBtn {
+        display: none;
+      }
+    }
+  }
+  .underText {
+    font-size: 14px;
+    margin-left: 120px;
+  }
+}

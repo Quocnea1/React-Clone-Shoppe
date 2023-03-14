@@ -1,0 +1,50 @@
+@import "../../../style/mixin.scss";
+
+.shopee-product-rating {
+  display: flex;
+  margin: 20px 50px;
+  padding: 0 0 !important;
+  .rating-avatar {
+    margin-right: 20px;
+    .placeholder {
+      .avatar-img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.rating-main {
+  .author-name {
+    .authorName {
+    }
+  }
+  .ratung-star {
+  }
+  .rating-time {
+  }
+  .comment {
+    margin: 20px 0;
+    font-size: 14px;
+    text-overflow: ellipsis;
+  }
+  .img-wrapper {
+    display: flex;
+  }
+  .imgs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 150px;
+    height: 150px;
+
+  }
+}
+
+// Global Styles Change
+// img {
+//     width: 20px;
+// }

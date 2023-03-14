@@ -1,0 +1,73 @@
+@import "../../../../../style/mixin.scss";
+
+.allCategory {
+  .wrapper {
+    color: $primary-color;
+    width: 1000px;
+    background-color: $white-color;
+    padding: 20px 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 3px -2px $border-color;
+
+    .title {
+      font-size: 2.4rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    .categoryItems {
+      display: flex;
+      flex-direction: column;
+
+      .subCategoryItems {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 30px;
+        color: $text-color;
+        width: 85%;
+        font-size: 1.6rem;
+        padding: 10px 40px;
+        border-radius: 0 0 20px 20px;
+        background-color: aliceblue;
+      }
+      .categoryItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+        .categoryName {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: $text-color;
+          font-weight: 500;
+          font-size: 2rem;
+          background-color: $hover-color;
+          padding: 10px 25px;
+          border-radius: 20px;
+          margin-top: 10px;
+          width: 100%;
+        }
+        .subButton {
+          cursor: pointer;
+          display: flex;
+          flex-shrink: 0;
+          justify-content: center;
+          align-items: center;
+          font-size: 2.5rem;
+          font-weight: bold;
+          width: 40px;
+          height: 40px;
+          background-color: $border-color;
+          border-radius: 50%;
+          margin-bottom: -7px;
+
+          &:hover {
+            filter: brightness(105%);
+          }
+        }
+      }
+    }
+  }
+}

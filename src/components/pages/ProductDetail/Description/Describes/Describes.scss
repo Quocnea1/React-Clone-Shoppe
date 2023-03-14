@@ -1,0 +1,21 @@
+@import '../../../../../style/mixin.scss';
+
+.describe {
+    margin-bottom: 8px;
+
+    .describeText {
+        font-size: 1.4rem;
+        color: $text-color;
+        font-weight: 400;
+        line-height: 2rem;
+        display: inline-block;
+
+    }
+    .describeIcon {
+        font-size: 1.3rem;
+        margin: 0 8px;
+        color: rgb(0, 183, 255);
+    }
+}
+
+

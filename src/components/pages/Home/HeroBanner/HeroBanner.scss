@@ -1,0 +1,33 @@
+@import '../../../../style/mixin.scss';
+
+.heroBanner {
+  background-color: $white-color;
+  box-shadow: 0 1px 2px 0 $border-color;
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 30px 0;
+
+    .leftBanner {
+      cursor: pointer;
+      width: 806px;
+      margin-right: 5px;
+    }
+
+    .rightBanner {
+      width: 400px;
+
+      .abovePic {
+        padding-bottom: 1px;
+        cursor: pointer;
+      }
+      .bottomPic {
+        padding-top: 1px;
+        cursor: pointer;
+      }
+    }
+  }
+}

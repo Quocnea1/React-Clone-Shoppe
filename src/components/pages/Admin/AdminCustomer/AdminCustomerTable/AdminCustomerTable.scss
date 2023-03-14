@@ -1,0 +1,13 @@
+@import "../../../../../style/mixin.scss";
+
+.customerTable {
+  .customerTable-heading {
+    color: $primary-color;
+    margin-right: 206px;
+    padding: 0 85px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}

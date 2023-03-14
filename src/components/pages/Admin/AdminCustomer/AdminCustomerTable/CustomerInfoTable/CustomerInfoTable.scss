@@ -1,0 +1,52 @@
+@import "../../../../../../style/mixin.scss";
+
+.customer-info-table {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #eeeeee;
+  border-radius: 6px;
+  margin: 10px 32px;
+  padding: 10px;
+  line-height: 50px;
+  .customer-info-name {
+    display: flex;
+    img {
+      width: 50px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+  }
+  .customer-info-icon {
+    button {
+      line-height: 0;
+      height: 25px;
+      outline: none;
+      border: none;
+      border-radius: 2px;
+      background-color: #eeeeee;
+      margin-right: 5px;
+
+      i {
+        margin-right: 10px;
+        align-items: center;
+      }
+    }
+    .btn-find,
+    .btn-edit,
+    .btn-delete {
+      border-radius: 5px;
+    }
+    .btn-find {
+      background-color: rgb(108, 185, 234);
+      width: 28px;
+    }
+    .btn-edit {
+      background-color: rgb(108, 185, 234);
+      width: 28px;
+    }
+    .btn-delete {
+      background-color: rgb(249, 126, 126);
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../../../../style/mixin.scss";
+
+.detail{
+  font-size: 1.5rem;
+  display: flex;
+  gap: 20px;
+
+  .label{
+    width: 250px;
+    color: $text-color2;
+  }
+}

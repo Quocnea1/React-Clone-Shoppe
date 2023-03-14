@@ -1,0 +1,9 @@
+@import "../../../../../style/mixin.scss"; 
+
+.modalBody {
+    background-color: $white-color;
+    width: 51%;
+    height: fit-content;
+    z-index: 9999;
+
+}

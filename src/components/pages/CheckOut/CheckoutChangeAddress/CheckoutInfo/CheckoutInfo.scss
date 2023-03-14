@@ -1,0 +1,9 @@
+@import "../../../../../style/mixin.scss";
+
+.checkout-info {
+    display: inline-block;
+    p {
+        float: left;
+        padding-right: 10px;
+    }
+}
